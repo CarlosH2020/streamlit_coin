@@ -3,7 +3,6 @@ Docstring for [Virtual Currency].vDash
 """
 
 import streamlit as st
-from bs4 import BeautifulSoup
 import requests
 
 
@@ -69,4 +68,5 @@ def card_metrics(btc_value: str, xrp_value: str):
 btc = access_website_btc()
 xrp = access_website_xrp()
 card_metrics(btc, xrp)
+
 
